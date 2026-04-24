@@ -1,16 +1,8 @@
 public class Calculator {
-  public static void main(String args[]) {
-  public int Add(int a, int b) {
+  public int add(int a, int b) {
     return a + b;
   }
-  public int Sub(int a, int b) {
+  public int subtract(int a, int b) {
     return a - b;
   }
-  public int Prod(int a, int b) {
-    return a * b;
-  }
-  public int Divide(int a, int b) {
-    return a / b ;
-  }
-}
 }
